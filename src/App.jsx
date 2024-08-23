@@ -20,7 +20,7 @@ import Workshops from './components/Workshops';
 //     <main className="flex justify-center items-center min-h-screen flex-col bg-bgPurple">
 //       <div className="flex flex-col items-center w-screen mb-14">
 //         <h1 className="text-5xl mt-20 font-bold">
-//           Hack Club Presents...
+//           Hack Club Presents..
 //         </h1>
 //         <h1 className="text-7xl font-bold">
 //         Luna🌙
