@@ -24,8 +24,9 @@ const Faq = () => {
   <Question question="How much does attendance cost?" answer="Luna is free thanks to Hack Club's support!" />
   <Question question="What should I bring?" answer="Just a laptop and yourself!" />
   <Question question="Where is Luna?" answer="Luna is being held from 8am to 8pm at Civic Hall in Manhattan." />
-  <Question question="I have more questions!" answer="Feel free to reach out! You can send us an email at zenab@hackclub.com!" />
-</div>
+  <Question question="I have more questions!" answer={
+    <>Feel free to reach out! You can send us an email at <a href="mailto:zenab@hackclub.com" className="text-buttonPurple2">zenab@hackclub.com</a>!</>
+  } />
 
     </div>
   );
