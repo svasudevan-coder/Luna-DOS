@@ -20,11 +20,11 @@ const Faq = () => {
     
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-full'>
   <Question question="Who Can Attend?" answer="This event is for all teenagers who identify as girls or nonbinary" />
-  <Question question="What if I have never coded before? Can I still come?" answer="Of course! This event is beginner friendly, and we will have workshops and mentors to help you along the way." />
+  <Question question="What if I have never coded before? Can I still come?" answer="Of course! This event is beginner-friendly, and we will have workshops and mentors to help you along the way." />
   <Question question="How much does attendance cost?" answer="Luna is free thanks to Hack Club's support!" />
   <Question question="What should I bring?" answer="Just a laptop and yourself!" />
   <Question question="Where is Luna?" answer="Luna is being held from 8am to 8pm at Civic Hall in Manhattan." />
-  <Question question="I have more questions!" answer="Feel free to reach out! You can send us an email at -!" />
+  <Question question="I have more questions!" answer="Feel free to reach out! You can send us an email at zenab@hackclub.com!" />
 </div>
 
     </div>
