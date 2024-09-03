@@ -13,7 +13,7 @@ const Faq = () => {
   return (
     <div>
       <div className='items-left mt-12'>
-        <h1 className="text-6xl mb-10 font-bold">Frequently Asked Questions</h1>
+        <h1 className="text-4xl sm:text-6xl mb-6 sm:mb-10 font-bold">Frequently Asked Questions</h1>
       </div>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-full'>
@@ -23,7 +23,7 @@ const Faq = () => {
         <Question question="What should I bring?" answer="Just a laptop and yourself!" />
         <Question question="Where is Luna?" answer="Luna is being held from 8am to 8pm at Civic Hall in Manhattan." />
         <Question question="I have more questions!" answer={
-          <>Feel free to reach out! You can send us an email at <a href="mailto:zenab@hackclub.com" className="text-buttonPurple2">zenab@hackclub.com</a>!</>
+          <>Feel free to reach out! You can send us an email at <a href="mailto:zenab@hackclub.com" className="text-buttonPurple2 hover:decoration-wavy hover:text-buttonPurple2npm">zenab@hackclub.com</a>!</>
         } />
       </div>
     </div>

@@ -18,18 +18,25 @@ import Workshops from './components/Workshops';
 function App() {
   return (
     <main className="flex justify-center items-center min-h-screen flex-col bg-bgPurple w-full">
-      <div className="flex flex-col items-center w-full mb-14">
-        <h1 className="text-5xl mt-20 font-bold">
-          Hack Club Presents...
-        </h1>
-        <h1 className="text-7xl font-bold">
-        Luna🌙🌙
-        </h1>
-        <h2 className="-mt-8 text-2xl mt-6 mb-6 ">October 5th | 8 AM - 8 PM | NYC, New York </h2>
-        <a href='https://airtable.com/appRIyfNtzDvLhFv8/shrQHukCeNGSUcEOC' className=" font-bold inline-block py-2 px-12 border border-buttonPurple border-[0.16em] bg-buttonPurple rounded-sm m-0 mr-1 mb-1 box-border no-underline text-white text-center transition-all duration-150 hover:bg-buttonPurple2 hover:border-buttonPurple2 py-4">
-          Register!
-        </a>
-      </div>
+      
+      <div className="flex flex-col items-center w-full mb-14 px-4 sm:px-6">
+  <h1 className="text-3xl sm:text-4xl md:text-5xl mt-10 sm:mt-16 md:mt-20 font-bold text-center">
+    Hack Club Presents...
+  </h1>
+  <h1 className="mt-0 text-6xl sm:text-7xl md:text-7xl font-bold text-center mt-8 sm:mt-10 md:mt-12">
+    Luna🌙
+  </h1>
+  <h2 className="mt-4 sm:mt-5 md:mt-6 text-xl sm:text-2xl md:text-2xl mb-4 sm:mb-5 md:mb-6 text-center">
+    October 5th | 8 AM - 8 PM | NYC, New York
+  </h2>
+  <a
+    href="https://airtable.com/appRIyfNtzDvLhFv8/shrQHukCeNGSUcEOC"
+    className="font-bold inline-block py-3 px-8 sm:px-10 md:px-12 border border-buttonPurple border-[0.16em] bg-buttonPurple rounded-sm m-0 mb-1 box-border no-underline text-white text-center transition-all duration-150 hover:bg-buttonPurple2 hover:border-buttonPurple2"
+  >
+    Register!
+  </a>
+</div>
+
 
       <div className='flex flex-col items-left w-4/6'>
         <h2 className='text-6xl mb-10 font-bold'>Luna is a social coding event!</h2>
@@ -37,7 +44,7 @@ function App() {
       </div>
 
       <h1 className="mt-10 border border-buttonPurple2 rounded-full px-2">Past Events</h1>
-      <div className="flex flex-row space-x-4 mt-10 mb-10">
+      <div className="mt-10 mb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 h-full">
         <Polaroid
           img="/Lonestar.jpg"
           desc="9/16/23 - Lonestar"
@@ -75,10 +82,15 @@ function App() {
           <Faq />
         </div>
       </div>
+
+      <a
+  className="mb-10 text-xl text-buttonPurple2 hover:decoration-wavy hover:text-buttonPurple2"
+  href="https://www.instagram.com/luna.hackclub/"
+  >
+    Instagram
+  </a>
+
       
-      <div className='mb-10'>
-          <h1>Instagram</h1>
-      </div>
 
     </main>
   );

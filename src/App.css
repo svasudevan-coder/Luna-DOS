@@ -1,0 +1,9 @@
+.decoration-wavy {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+  }
+  
+  .hover\:decoration-wavy:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+  }
