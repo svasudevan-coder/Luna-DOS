@@ -77,7 +77,7 @@ function App() {
       </div>
       
       <div className='mb-10'>
-
+          <h1>Instagram</h1>
       </div>
 
     </main>
