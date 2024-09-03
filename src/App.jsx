@@ -56,8 +56,8 @@ function App() {
         />
       </div>
 
-      <div className='flex flex-col items-left w-4/6'>
-        <h2 className='text-6xl mb-10 font-bold'>Workshops/Tracks</h2>
+      <div className="flex flex-col items-left w-full sm:w-4/6 px-4 sm:px-0">
+        <h2 className="text-4xl sm:text-6xl mb-6 sm:mb-10 font-bold">
         
         <Workshops img="/sprig.jpg" name="Build your own video game" desc="
         In this workshop, participants will learn to create 2D video games in JavaScript. They’ll use Sprig, a web-based JavaScript editor created by Hack Club. After students complete this track, they’ll be shipped a free handheld console to play their game on!
