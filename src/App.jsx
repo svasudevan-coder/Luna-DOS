@@ -23,7 +23,7 @@ function App() {
           Hack Club Presents...
         </h1>
         <h1 className="text-7xl font-bold">
-        Luna🌙
+        Luna🌙🌙
         </h1>
         <h2 className="-mt-8 text-2xl mt-6 mb-6 ">October 5th | 8 AM - 8 PM | NYC, New York </h2>
         <a href='https://airtable.com/appRIyfNtzDvLhFv8/shrQHukCeNGSUcEOC' className=" font-bold inline-block py-2 px-12 border border-buttonPurple border-[0.16em] bg-buttonPurple rounded-sm m-0 mr-1 mb-1 box-border no-underline text-white text-center transition-all duration-150 hover:bg-buttonPurple2 hover:border-buttonPurple2 py-4">
