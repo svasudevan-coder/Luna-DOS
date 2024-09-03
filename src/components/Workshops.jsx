@@ -9,7 +9,7 @@ const Workshop = ({ img, name, desc }) => {
             <div>
                 <img 
                     src={img} 
-                    className="w-60 h-60 object-cover" 
+                    className="hidden lg:block lg:w-60 lg:h-60 object-cover"
                     alt={name}
                 />
             </div>
