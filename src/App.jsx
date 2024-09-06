@@ -7,6 +7,7 @@ import sprig from '/sprig.jpg';
 import Spark from '/Spark.jpg';
 import Lonestar from '/Lonestar.jpg';
 import Webdev from '/webdev.jpg';
+import Icon from '@hackclub/icons'
 
 
 
@@ -84,10 +85,12 @@ function App() {
       </div>
 
       <a
-  className="mb-10 text-xl text-buttonPurple2 hover:decoration-wavy hover:text-buttonPurple2"
+  className="mb-10 text-xl"
   href="https://www.instagram.com/luna.hackclub/"
   >
-    Instagram
+    <div style={{ color: 'black' }}>
+        <Icon glyph="instagram" size={32} />
+    </div>
   </a>
 
       
